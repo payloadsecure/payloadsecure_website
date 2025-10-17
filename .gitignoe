@@ -1,0 +1,17 @@
+# Dependency folders
+node_modules
+
+#Build output
+dist
+build
+
+# Vercel and environment files
+.versel
+.env
+.env.local
+
+# Logs and OS junks
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
