@@ -1,15 +1,11 @@
 {
-    "framework": "vite",
-    "installCommand": "npm install && npm rebuild",
-    "buildCommand": "npx vite build",
-    "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "npm install && npm rebuild",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "build": {
     "env": {
-      "CI": "false"
-    },
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      }
+      "NODE_VERSION": "20"
     }
   }
-  
+}
